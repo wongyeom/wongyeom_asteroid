@@ -1,7 +1,10 @@
 import pygame
 
+
 class Ship(pygame.sprite.Sprite):
     def __init__(self):
+        screen_info = pygame.display.Info()
+        size = (width, height) = ((int(screen_info.current_w), int(screen_info.current_h)))
         pygame.sprite.Sprite.__init__(self)
         self.movex = 100
         self.movey = 100
