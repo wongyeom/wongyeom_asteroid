@@ -10,6 +10,8 @@ class Ship(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.speed = pygame.math.Vector2(0,0)
         self.health =10
+        self.rect.center = (width//2, height//2)
+
 
 
     def update(self,enemyGroup):

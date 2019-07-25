@@ -13,12 +13,12 @@ screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 color = (0, 0, 0)
 enemy = Asteroid(10,10)
-enemy2 = Asteroid(500,100)
+enemy2 = Asteroid(10000,10000)
 enemy3 = Asteroid(700,200)
-enemy4 = Asteroid()
-enemy5 = Asteroid()
-enemy6 = Asteroid()
-enemy7 = Asteroid()
+enemy4 = Asteroid(50,50)
+enemy5 = Asteroid(30,400)
+enemy6 = Asteroid(0,600)
+enemy7 = Asteroid(400,400)
 
 
 
