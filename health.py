@@ -14,7 +14,6 @@ class Health(pygame.sprite.Sprite):
 
         self.rect.x = x
         self.rect.y = y
-
     def update(self, health):
         if health <= 3:
             self.image = pygame.image.load('half.png')

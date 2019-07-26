@@ -14,7 +14,6 @@ class Planet(pygame.sprite.Sprite):
         self.rect.x=x
         self.rect.y=y
 
-
     def update(self,enemyGroup):
         hitlist = pygame.sprite.spritecollide(self,enemyGroup, False)
         for enemy in hitlist:

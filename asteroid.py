@@ -18,7 +18,6 @@ class Asteroid(pygame.sprite.Sprite):
         self.speed = pygame.math.Vector2(spd,spda)
         self.rect.x=x
         self.rect.y=y
-
     def move(self):
         screen_info = pygame.display.Info()
         size = (width, height) = ((int(screen_info.current_w), int(screen_info.current_h)))

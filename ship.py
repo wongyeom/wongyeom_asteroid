@@ -16,7 +16,6 @@ class Ship(pygame.sprite.Sprite):
         self.rect.center = (width//2, height//2)
 
 
-
     def update(self,enemyGroup,bumperGroup):
 
         self.rect.move_ip(self.speed)
